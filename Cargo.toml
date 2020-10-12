@@ -1,0 +1,13 @@
+[package]
+name = "semver"
+version = "0.1.0"
+authors = ["Dillon Hicks <dillon@dillonhicks.io>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bytes = "^0.5"
+anyhow = "^1.0"
+thiserror = "^1.0"
+smallvec = "^1.4"
